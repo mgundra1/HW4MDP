@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chore Name"
+        android:textColor="@color/system_blue"
+        android:layout_marginLeft="15sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textChoreName"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Repetition"
+        android:layout_marginLeft="15sp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textRepetition"
+        android:layout_below="@+id/textChoreName"/>
+
+</RelativeLayout>
+
+

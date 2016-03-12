@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">No-More-Nagging-inator</string>
+    <string name="title_activity_self_destruct">Self Destruct</string>
+    <string name="title_activity_children_list">Children List</string>
+    <string name="title_activity_chores_list">Chores List</string>
+    <string name="title_menu_option">Home Page</string>
+    <string name="home_page_text">No-More-Nagging-inator\n\nWelcome to the App!\nAdd Children\nAdd chores
+            Assign chores to children
+            Happy mothers!
+            Voila!!!\n!!!\n\n\n\n\n\n</string>
+
+    <string name="repetition_prompt">Set a repetition interval</string>
+    <string-array name="repetition_intervals">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+</resources>
